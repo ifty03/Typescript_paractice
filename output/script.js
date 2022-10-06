@@ -10,3 +10,7 @@ arr = {
 };
 nothing = ["how", 3, false];
 console.log(nothing);
+const my = (first, second, third) => {
+    console.log(first, second);
+};
+my(12, 30);
